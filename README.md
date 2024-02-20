@@ -1,1 +1,1 @@
-[Ссылка на сайт](kolbaser.ru)
+[Ссылка на сайт](http://kolbaser.ru/)
