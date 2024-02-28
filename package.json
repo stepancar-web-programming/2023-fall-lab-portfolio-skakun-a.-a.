@@ -1,0 +1,15 @@
+{
+  "name": "visit",
+  "version": "1.0.0",
+  "description": "[Ссылка на сайт](http://kolbaser.ru/)",
+  "main": "script.js",
+  "scripts": {
+    "lint:css": "stylelint --fix --ignore-path .gitignore *.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

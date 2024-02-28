@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 img {
@@ -62,7 +62,6 @@ h3 {
 .hero__title {
   font-size: 48px;
   line-height: 1.1;
-
   margin-bottom: 20px;
 }
 
@@ -94,11 +93,9 @@ h3 {
   justify-self: center;
   overflow: hidden;
   border: 10px solid #fff;
-
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-
   animation: ava-animate 5s infinite alternate;
-  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 5px 10px rgb(0 0 0 / 50%);
 }
 
 .hero__box-img {
@@ -132,6 +129,7 @@ h3 {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
+
 .slider .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -139,7 +137,7 @@ h3 {
 
 .slider .previous:hover,
 .slider .next:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(0 0 0 / 20%);
 }
 
 /* Анимация слайдов: */
@@ -152,12 +150,13 @@ h3 {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
 }
 
-@media screen and (max-width: 978px) {
+@media screen and (width <= 978px) {
   .hero {
     padding-top: 30px;
   }
