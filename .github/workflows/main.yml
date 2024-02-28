@@ -18,3 +18,5 @@ jobs:
         run: npm install
       - name: Lint CSS
         run: npm run lint:css
+      - name: Lint JS
+        run: npm run lint:js

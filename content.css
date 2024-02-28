@@ -132,9 +132,9 @@ body {
 }
 
 #scroll-button {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
+  position: fixed;
+  top: 30px;
+  left: 96%;
   transform: translateX(-50%);
   background-color: transparent;
   border: none;
@@ -181,6 +181,10 @@ video {
   .video-container {
     margin-top: 150px;
     margin-bottom: 70px;
+  }
+
+  #scroll-button {
+    left: 90%;
   }
 
   video {
