@@ -129,10 +129,9 @@ body {
 .return-btn img {
   width: 50px;
   height: auto;
-  border: none;
 }
 
-#scrollButton {
+#scroll-button {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -142,7 +141,7 @@ body {
   cursor: pointer;
 }
 
-#scrollButton img {
+#scroll-button img {
   width: 50px;
 }
 

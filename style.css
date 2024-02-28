@@ -23,11 +23,9 @@ h3 {
 .header {
   width: 100%;
   padding: 15px 0;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-size: 24px;
   font-weight: 300;
   color: gray;
@@ -47,48 +45,48 @@ h3 {
   padding: 0 15px;
 }
 
-.hero__container {
+.hero-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   grid-gap: 20px;
 }
 
-.hero__about {
+.hero-about {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.hero__title {
+.hero-title {
   font-size: 48px;
   line-height: 1.1;
   margin-bottom: 20px;
 }
 
-.hero__prof {
+.hero-prof {
   color: #4facfe;
   white-space: nowrap;
 }
 
-.hero__subtitle {
+.hero-subtitle {
   font-size: 32px;
   font-weight: 400;
 }
 
-.hero__links {
+.hero-links {
   display: flex;
 }
 
-.hero__link {
+.hero-link {
   margin-top: 50px;
   color: #000;
 }
 
-.hero__link:hover {
+.hero-link:hover {
   color: #4facfe;
 }
 
-.hero__box {
+.hero-box {
   max-width: 500px;
   justify-self: center;
   overflow: hidden;
@@ -98,7 +96,7 @@ h3 {
   box-shadow: 2px 5px 10px rgb(0 0 0 / 50%);
 }
 
-.hero__box-img {
+.hero-box-img {
   animation: ava-bg 3s infinite alternate;
 }
 
@@ -161,33 +159,33 @@ h3 {
     padding-top: 30px;
   }
 
-  .hero__container {
+  .hero-container {
     grid-row-gap: 20px;
   }
 
-  .hero__title {
+  .hero-title {
     font-size: 28px;
     margin-bottom: 10px;
   }
 
-  .hero__subtitle {
+  .hero-subtitle {
     font-size: 22px;
     font-weight: 400;
   }
 
-  .hero__description {
+  .hero-description {
     font-size: 14px;
   }
 
-  .hero__about {
+  .hero-about {
     text-align: center;
   }
 
-  .hero__links {
+  .hero-links {
     justify-content: center;
   }
 
-  .hero__box {
+  .hero-box {
     max-width: 350px;
     justify-self: center;
   }
