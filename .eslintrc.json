@@ -1,6 +1,6 @@
 {
-    "extends": "eslint-config-standard",
-    "rules": {
-        "no-unused-vars": "off"
-      }
+  "extends": "eslint-config-standard",
+  "rules": {
+    "no-unused-vars": "off"
+  }
 }
