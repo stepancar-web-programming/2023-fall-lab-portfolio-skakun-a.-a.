@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+      - name: Lint CSS
+        run: npm run lint:css
+      - name: Lint JS
+        run: npm run lint:js
+      - name: Run Prettier
+        run: npm run format

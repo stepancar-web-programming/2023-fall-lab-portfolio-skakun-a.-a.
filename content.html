@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Котики!!!</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="content.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <a href="index.html" class="return-btn">
+        <img src="res/home.png" alt="Вернуться на главную" />
+      </a>
+      <div class="slider-wrapper" id="slider1">
+        <button id="prev-slide" class="slide-button material-symbols-rounded">
+          chevron_left
+        </button>
+        <ul class="image-list"></ul>
+        <button id="next-slide" class="slide-button material-symbols-rounded">
+          chevron_right
+        </button>
+        <div class="slider-scrollbar">
+          <div class="scrollbar-track">
+            <div class="scrollbar-thumb"></div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-wrapper" id="slider2">
+        <button id="prev-slide" class="slide-button material-symbols-rounded">
+          chevron_left
+        </button>
+        <ul class="image-list"></ul>
+        <button id="next-slide" class="slide-button material-symbols-rounded">
+          chevron_right
+        </button>
+        <div class="slider-scrollbar">
+          <div class="scrollbar-track">
+            <div class="scrollbar-thumb"></div>
+          </div>
+        </div>
+      </div>
+      <button id="scroll-button" onclick="scrollToBottom()">
+        <img src="res/down.png" alt="Scroll Down" />
+      </button>
+      <div class="video-container">
+        <video controls poster="res/post.jpg">
+          <source src="res/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </body>
+</html>

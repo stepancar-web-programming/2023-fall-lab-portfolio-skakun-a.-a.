@@ -1,0 +1,20 @@
+{
+  "name": "visit",
+  "version": "1.0.0",
+  "description": "[Ссылка на сайт](http://kolbaser.ru/)",
+  "main": "script.js",
+  "scripts": {
+    "lint:css": "stylelint --fix --ignore-path .gitignore *.css",
+    "lint:js": "eslint . --fix",
+    "format": "prettier --write \"**/*.html\" \"**/*.json\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
